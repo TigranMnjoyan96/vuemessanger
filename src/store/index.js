@@ -6,18 +6,47 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    user: []
+    contacts: [],
+    currentUser: {},
+    chats: []
   },
   mutations: {
-    SET_USERS(state, payload) {
-      state.user = payload
+    SET_CONTACTS(state, payload) {
+      state.contacts = payload
+    },
+    GET_USER_ID(state, payload) {
+      if(payload) {
+        state.currentUser = payload
+      } else {
+        state.currentUser = ''
+      }
+    },
+    FETCH_CHATS(state, payload) {
+        state.chats = payload
     }
   },
   actions: {
-    async FETCH_DATA({commit}) {
-        axios.get('l')
-        commit('SET_USERS', res)
-    }
+     FETCH_CONTACTS({commit}) {
+        axios.get('http://localhost:3000/contacts')
+            .then(res => {
+              commit('SET_CONTACTS', res.data)
+            })
+    },
+    GET_USER_ID({commit}, payload) {
+       commit('GET_USER_ID', payload)
+    },
+    FETCH_CHATS({commit}) {
+       return axios.get('http://localhost:3000/chats')
+           .then(res => {
+             commit('FETCH_CHATS', res.data)
+           })
+    },
+      SET_MESSAGES_TO_CHAT({commit}, {userId, chat}) {
+         return axios.put('http://localhost:3000/chats/' + userId, chat)
+             .then(res => {
+                 return res
+             })
+      }
   },
   modules: {}
 });

@@ -1,7 +1,240 @@
 {
   "contacts": [
     {
-      "id": "24sdsdvr57e5580",
+      "id": 1,
+      "name": "Tom",
+      "phone": "8-800-555-22-33",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "phone": "8-800-888-92-33",
+      "status": "offline"
+    },
+    {
+      "id": 3,
+      "name": "Samuel",
+      "phone": "8-800-232-22-53",
+      "status": "offline"
+    },
+    {
+      "id": 4,
+      "name": "Jack",
+      "phone": "8-800-7773-62-33",
+      "status": "online"
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "phone": "8-800-241-28-33",
+      "status": "offline"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "name": "Tom",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "14:14",
+          "text": "Im fine too ty!",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "20:03",
+          "text": "sdsdv",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Samuel",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "18:51",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "18:51",
+          "text": "eiejiev",
+          "type": "own"
+        },
+        {
+          "id": 6,
+          "time": "18:51",
+          "text": "sdvs sdv",
+          "type": "own"
+        },
+        {
+          "id": 7,
+          "time": "18:51",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 8,
+          "time": "18:51",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 9,
+          "time": "18:51",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 10,
+          "time": "18:51",
+          "text": "sdvsdv",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jack",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK tsssssssssssssssssssssssssssoo :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "18:49",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "18:49",
+          "text": "sdev",
+          "type": "own"
+        },
+        {
+          "id": 6,
+          "time": "18:54",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 7,
+          "time": "18:54",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 8,
+          "time": "18:55",
+          "text": "sdvsdv",
+          "type": "own"
+        },
+        {
+          "id": 9,
+          "time": "18:55",
+          "text": "sdv",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:20",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 4,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "19:51",
+          "text": "sdvsdv",
+          "type": "own"
+        }
+      ]
     }
   ]
 }
